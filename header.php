@@ -36,7 +36,7 @@
     <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
 
       <!-- Sidebar - Brand -->
-      <a class="sidebar-brand d-flex align-items-center justify-content-center" href="total.php?page=home">
+      <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.php?page=home">
         <div class="sidebar-brand-icon rotate-n-15">
           <i class="fas fa-wrench"></i>
         </div>
@@ -60,8 +60,8 @@
         <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
           <div class="bg-white py-2 collapse-inner rounded">
             <h6 class="collapse-header">Custom Components:</h6>
-            <a class="collapse-item fas fa-th-list" href="total.php?page=home">&nbsp; รายการ</a>
-            <a class="collapse-item fas fa-edit" href="total.php?page=report">&nbsp; แจ้งซ่อม</a>
+            <a class="collapse-item fas fa-th-list" href="index.php?page=home">&nbsp; รายการ</a>
+            <a class="collapse-item fas fa-edit" href="index.php?page=report">&nbsp; แจ้งซ่อม</a>
           </div>
         </div>
       </li>

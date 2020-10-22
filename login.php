@@ -1,3 +1,6 @@
+<?php
+  session_start();
+  ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -31,7 +34,7 @@
   <div class="container">
 
     <!-- Outer Row -->
-    <form class="form-signin"></form>
+    <form class="form-signin" name="form_login" id="form_login" method="post" action="login_process.php">
     <div class="row justify-content-center">
 
       <div class="col-xl-10 col-lg-12 col-md-9">
@@ -47,23 +50,23 @@
                   </div>
                   <form class="user">
                     <div class="form-group">
-                      <input type="username" id="inputUsername" class="form-control form-control-user"
+                      <input type="username" id="input_username" name="input_username" class="form-control form-control-user"
                         placeholder="Username" required="" autofocus="">
                     </div>
                     <div class="form-group">
-                      <input type="password" id="inputPassword" class="form-control form-control-user"
+                      <input type="password" id="input_password" name="input_password" class="form-control form-control-user"
                         placeholder="Password" required="">
                     </div>
                     <div class="form-group">
                       <div class="custom-control custom-checkbox small">
-                        <input type="checkbox" class="custom-control-input" id="customCheck">
+                        <input type="checkbox" class="custom-control-input" id="customCheck" name="customCheck">
                         <label class="custom-control-label" for="customCheck">Remember Me</label>
                       </div>
                     </div>
-                    <button   href="total.php?page=home" class="btn btn-primary btn-user btn-block" type="submit">
+                    <button   href="index.php?page=home" class="btn btn-primary btn-user btn-block" type="submit">
                       <h5>Sign in</h5>
                     </button>
-                    <a href="total.php?page=home">กดก่อน</a>
+                    <a href="index.php?page=home">กดก่อน</a>
                   </form>
                 </div>
               </div>
