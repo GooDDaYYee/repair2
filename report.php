@@ -255,12 +255,12 @@
                 </div>
                 <div class="form-group row">
                   <div class="col-sm-6 mb-3 mb-sm-0">
-                    <input type="password" id="inputPassword" class="form-control form-control-user"
-                      placeholder="Password" required="">
+                    <input type="numberphone" id="inputnumberphone" class="form-control form-control-user"
+                      placeholder="เบอร์โทรศัพท์" required="">
                   </div>
                   <div class="col-sm-6">
                     <input type="password" id="inputRepeatPassword" class="form-control form-control-user"
-                      placeholder="Repeat Password" required="">
+                      placeholder="" required="">
                   </div>
                 </div>
 
@@ -273,7 +273,7 @@
                   </div>
                 </div>
                 <div class="form-group">
-                  <h6>Open file :</h6>
+                  <h6>แนปรูปภาพ :</h6>
                   <input type="file" class="btn btn-outline-primary" id="showimg" name="showimg"
                     accept="image/png, image/jpeg, image/gif " onchange="preview_image(event)">
 
