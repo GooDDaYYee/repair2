@@ -189,7 +189,8 @@
           <li class="nav-item dropdown no-arrow">
             <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown"
               aria-haspopup="true" aria-expanded="false">
-              <span class="mr-2 d-none d-lg-inline text-gray-600 small">Admin</span>
+              <span
+                class="mr-2 d-none d-lg-inline text-gray-600 small"><?php echo $_SESSION['name'].' '.$_SESSION['lastname']; ?></span>
               <img class="img-profile rounded-circle" src="img/picture.png">
             </a>
             <!-- Dropdown - User Information -->
@@ -219,28 +220,29 @@
                 <hr class="user">
                 <div class="form-group row">
                   <div class="col-sm-6 mb-4 mb-sm-0">
-                    <input type="text" id="inputFirst Name" class="form-control form-control-user"
-                      placeholder="ชื่อ" required="" autofocus="">
+                    <input type="text" id="inputFirst Name" class="form-control form-control-user" placeholder="ชื่อ"
+                      required="" autofocus="">
                   </div>
                   <div class="col-sm-6">
-                    <input type="text" id="inputLast Name" class="form-control form-control-user"
-                      placeholder="นามสกุล" required="" autofocus="">
+                    <input type="text" id="inputLast Name" class="form-control form-control-user" placeholder="นามสกุล"
+                      required="" autofocus="">
                   </div>
                 </div>
                 <div class="form-group">
-                  <input type="text" id="inputDepartment" class="form-control form-control-user"
-                    placeholder="แผนก" required="" autofocus="">
+                  <input type="text" id="inputDepartment" class="form-control form-control-user" placeholder="แผนก"
+                    required="" autofocus="">
                 </div>
 
                 <div class="form-group row">
                   <div class="col-sm-6 mb-4 mb-sm-0">
-                      <select class="form-control" placeholder="แผนก">
-                        <option>ชนิดอุปกรณ์</option>
-                        <option>คอมพิวเตอร์</option>
-                      </select>
+                    <select class="form-control" placeholder="แผนก">
+                      <option>ชนิดอุปกรณ์</option>
+                      <option>คอมพิวเตอร์</option>
+                    </select>
                   </div>
                   <div class="col-sm-6">
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="สาเหตุ"></textarea>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                      placeholder="สาเหตุ"></textarea>
                   </div>
                 </div>
                 <div class="form-group row">

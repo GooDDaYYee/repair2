@@ -169,7 +169,8 @@
         <li class="nav-item dropdown no-arrow">
           <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown"
             aria-haspopup="true" aria-expanded="false">
-            <span class="mr-2 d-none d-lg-inline text-gray-600 small"><?php echo $_SESSION['name'].' '.$_SESSION['lastname']; ?>
+            <span
+              class="mr-2 d-none d-lg-inline text-gray-600 small"><?php echo $_SESSION['name'].' '.$_SESSION['lastname']; ?>
             </span>
             <img class="img-profile rounded-circle" src="img/picture.png">
           </a>
@@ -193,7 +194,7 @@
       <!-- List table -->
       <div class="card shadow mb-4">
         <div class="card-header py-3">
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-ui-checks" fill="currentColor"
+          <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-ui-checks" fill="currentColor"
             xmlns="http://www.w3.org/2000/svg">
             <path d="M7 2.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-7a.5.5 0 0 1-.5-.5v-1z" />
             <path fill-rule="evenodd"
