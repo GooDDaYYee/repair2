@@ -281,11 +281,8 @@
 
                 <!-- picture -->
                 <div class="form-group">
-                  <class class="col-md-4"></class>
-                  <div class="col-md-7">
 
                     <img id="showimg" alt="" width="150" height="150">
-                  </div>
                   <br>
                   <h6>แนปรูปภาพ :</h6>
                   <input type="file" class="btn btn-outline-primary col-md-3" id="showimg" name="showimg"
