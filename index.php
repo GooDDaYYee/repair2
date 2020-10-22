@@ -10,7 +10,7 @@ include_once("header.php");
 $page=$_GET['page'];
 
 if($page=='report'){
-    include_once("report.html");
+    include_once("report.php");
 }elseif($page=='dashboard'){
     include_once("dashboard.php");
 }else{
