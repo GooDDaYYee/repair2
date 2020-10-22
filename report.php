@@ -26,6 +26,21 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
     integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
 
+
+  <!-- time -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment.min.js"></script>
+  <script type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/tempusdominus-bootstrap-4/5.0.1/js/tempusdominus-bootstrap-4.min.js">
+  </script>
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/tempusdominus-bootstrap-4/5.0.1/css/tempusdominus-bootstrap-4.min.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/js/all.js"
+    integrity="sha256-2JRzNxMJiS0aHOJjG+liqsEOuBb6++9cY4dSOyiijX4=" crossorigin="anonymous"></script>
+
+
   <style>
     body {
       font-family: 'Mitr';
@@ -226,20 +241,6 @@
                   <h1 class="h2 text-gray-900 mb-2">แจ้งซ่อม</h1>
                 </div>
                 <hr class="user">
-                <div class="form-group row">
-                  <div class="col-sm-6 mb-4 mb-sm-0">
-                    <input type="text" id="inputFirst Name" class="form-control form-control-user" placeholder="ชื่อ"
-                      required="" autofocus="">
-                  </div>
-                  <div class="col-sm-6">
-                    <input type="text" id="inputLast Name" class="form-control form-control-user" placeholder="นามสกุล"
-                      required="" autofocus="">
-                  </div>
-                </div>
-                <div class="form-group">
-                  <input type="text" id="inputDepartment" class="form-control form-control-user" placeholder="แผนก"
-                    required="" autofocus="">
-                </div>
 
                 <div class="form-group row">
                   <div class="col-sm-6 mb-4 mb-sm-0">
@@ -258,11 +259,25 @@
                     <input type="numberphone" id="inputnumberphone" class="form-control form-control-user"
                       placeholder="เบอร์โทรศัพท์" required="">
                   </div>
+                  <!-- time -->
                   <div class="col-sm-6">
-                    <input type="password" id="inputRepeatPassword" class="form-control form-control-user"
-                      placeholder="" required="">
+                      <div class="row">
+                        <div class="col-sm-7">
+                          <div class="form-group">
+                            <div class="input-group date" id="datetimepicker1" data-target-input="nearest">
+                              <input type="text" class="form-control datetimepicker-input"
+                                data-target="#datetimepicker1" placeholder="วันที่/เวลา">
+                              <div class="input-group-append" data-target="#datetimepicker1"
+                                data-toggle="datetimepicker">
+                                <div class="input-group-text"><i class="fa fa-calendar"></i></div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
                   </div>
                 </div>
+
 
                 <!-- picture -->
                 <div class="form-group">
@@ -271,13 +286,12 @@
 
                     <img id="showimg" alt="" width="150" height="150">
                   </div>
-                </div>
-                <div class="form-group">
+                  <br>
                   <h6>แนปรูปภาพ :</h6>
-                  <input type="file" class="btn btn-outline-primary" id="showimg" name="showimg"
+                  <input type="file" class="btn btn-outline-primary col-md-3" id="showimg" name="showimg"
                     accept="image/png, image/jpeg, image/gif " onchange="preview_image(event)">
-
                 </div>
+
                 <!-- End picture -->
                 <button class="btn btn-primary btn-user btn-block" type="submit">
                   <h5>Submit</h5>

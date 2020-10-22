@@ -232,7 +232,7 @@
                         <div class="col-lg">
                             <div class="p-5">
                                 <div class="text-center">
-                                    <h1 class="h2 text-gray-900 mb-2">Report</h1>
+                                    <h1 class="h2 text-gray-900 mb-2">เพิ่มผู้ใช้</h1>
                                 </div>
                                 <hr class="user">
 
@@ -240,11 +240,11 @@
                                 <div class="form-group row">
                                     <div class="col-sm-6 mb-3 mb-sm-0">
                                         <input type="text" id="inputname" class="form-control form-control-user"
-                                            placeholder="Name" required="">
+                                            placeholder="ชื่อ" required="">
                                     </div>
                                     <div class="col-sm-6">
                                         <input type="text" id="inputlastname" class="form-control form-control-user"
-                                            placeholder="Lastname" required="">
+                                            placeholder="นามสกุล" required="">
                                     </div>
                                 </div>
                                 <div class="form-group">

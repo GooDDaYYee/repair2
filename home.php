@@ -210,7 +210,7 @@
               <thead>
                 <tr>
                   <th scope="col">ลำดับ</th>
-                  <th scope="col">รายการ</th>
+                  <th scope="col">หมายเลขเครื่อง</th>
                   <th scope="col">หมวดหมู่</th>
                   <th scope="col">ประเภท</th>
                   <th scope="col">ยี่ห่อ</th>
@@ -219,6 +219,159 @@
                 </tr>
               </thead>
               <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>asdssadsadsadsadsaa</td>
+                  <td>adsad</td>
+                  <td>dsd</td>
+                  <td>assa</td>
+                  <td>@mddsadsao</td>
+                  <td>@mdado</td>
+                </tr>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>asdssadsadsadsadsaa</td>
+                  <td>adsad</td>
+                  <td>dsd</td>
+                  <td>assa</td>
+                  <td>@mddsadsao</td>
+                  <td>@mdado</td>
+                </tr>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>asdssadsadsadsadsaa</td>
+                  <td>adsad</td>
+                  <td>dsd</td>
+                  <td>assa</td>
+                  <td>@mddsadsao</td>
+                  <td>@mdado</td>
+                </tr>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>asdssadsadsadsadsaa</td>
+                  <td>adsad</td>
+                  <td>dsd</td>
+                  <td>assa</td>
+                  <td>@mddsadsao</td>
+                  <td>@mdado</td>
+                </tr>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>asdssadsadsadsadsaa</td>
+                  <td>adsad</td>
+                  <td>dsd</td>
+                  <td>assa</td>
+                  <td>@mddsadsao</td>
+                  <td>@mdado</td>
+                </tr>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>asdssadsadsadsadsaa</td>
+                  <td>adsad</td>
+                  <td>dsd</td>
+                  <td>assa</td>
+                  <td>@mddsadsao</td>
+                  <td>@mdado</td>
+                </tr>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>asdssadsadsadsadsaa</td>
+                  <td>adsad</td>
+                  <td>dsd</td>
+                  <td>assa</td>
+                  <td>@mddsadsao</td>
+                  <td>@mdado</td>
+                </tr>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>asdssadsadsadsadsaa</td>
+                  <td>adsad</td>
+                  <td>dsd</td>
+                  <td>assa</td>
+                  <td>@mddsadsao</td>
+                  <td>@mdado</td>
+                </tr>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>asdssadsadsadsadsaa</td>
+                  <td>adsad</td>
+                  <td>dsd</td>
+                  <td>assa</td>
+                  <td>@mddsadsao</td>
+                  <td>@mdado</td>
+                </tr>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>asdssadsadsadsadsaa</td>
+                  <td>adsad</td>
+                  <td>dsd</td>
+                  <td>assa</td>
+                  <td>@mddsadsao</td>
+                  <td>@mdado</td>
+                </tr>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>asdssadsadsadsadsaa</td>
+                  <td>adsad</td>
+                  <td>dsd</td>
+                  <td>assa</td>
+                  <td>@mddsadsao</td>
+                  <td>@mdado</td>
+                </tr>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>asdssadsadsadsadsaa</td>
+                  <td>adsad</td>
+                  <td>dsd</td>
+                  <td>assa</td>
+                  <td>@mddsadsao</td>
+                  <td>@mdado</td>
+                </tr>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>asdssadsadsadsadsaa</td>
+                  <td>adsad</td>
+                  <td>dsd</td>
+                  <td>assa</td>
+                  <td>@mddsadsao</td>
+                  <td>@mdado</td>
+                </tr>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>asdssadsadsadsadsaa</td>
+                  <td>adsad</td>
+                  <td>dsd</td>
+                  <td>assa</td>
+                  <td>@mddsadsao</td>
+                  <td>@mdado</td>
+                </tr>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>asdssadsadsadsadsaa</td>
+                  <td>adsad</td>
+                  <td>dsd</td>
+                  <td>assa</td>
+                  <td>@mddsadsao</td>
+                  <td>@mdado</td>
+                </tr>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>asdssadsadsadsadsaa</td>
+                  <td>adsad</td>
+                  <td>dsd</td>
+                  <td>assa</td>
+                  <td>@mddsadsao</td>
+                  <td>@mdado</td>
+                </tr>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>asdssadsadsadsadsaa</td>
+                  <td>adsad</td>
+                  <td>dsd</td>
+                  <td>assa</td>
+                  <td>@mddsadsao</td>
+                  <td>@mdado</td>
+                </tr>
                 <tr>
                   <th scope="row">1</th>
                   <td>asdssadsadsadsadsaa</td>

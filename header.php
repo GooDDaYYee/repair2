@@ -70,9 +70,9 @@
         <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
           <div class="bg-white py-2 collapse-inner rounded">
             <h6 class="collapse-header">Custom Components:</h6>
-            <a class="collapse-item fas fa-th-list" href="index.php?page=home">&nbsp; รายการ</a>
-            <a class="collapse-item fas fa-edit" href="index.php?page=report">&nbsp; แจ้งซ่อม</a>
-            <a class="collapse-item fas fa-user" href="index.php?page=register">&nbsp; เพิ่มผู้ใช้</a>
+            <a class="collapse-item " href="index.php?page=home">&nbsp; รายการ</a>
+            <a class="collapse-item " href="index.php?page=report">&nbsp; แจ้งซ่อม</a>
+            <a class="collapse-item " href="index.php?page=register">&nbsp; เพิ่มผู้ใช้</a>
           </div>
         </div>
       </li>
