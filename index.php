@@ -9,10 +9,10 @@ include_once("header.php");
 
 $page=$_GET['page'];
 
-if($page=='report'){
+if($page=='home'){
+    include_once("home.php");
+}elseif($page=='report'){
     include_once("report.php");
-}elseif($page=='register'){
-    include_once("register.php");
 }else{
     include_once("home.php");
 }
