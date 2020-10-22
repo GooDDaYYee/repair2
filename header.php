@@ -29,10 +29,12 @@
   <style>
     body {
       font-family: 'Mitr';
-      font-size: 22px;
+      font-size: 16px;
+    }
+    table {
+      text-align: center;
     }
   </style>
-
 </head>
 
 <body id="page-top">

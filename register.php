@@ -29,7 +29,7 @@
     <style>
         body {
             font-family: 'Mitr';
-            font-size: 22px;
+            font-size: 16px;
         }
     </style>
 
