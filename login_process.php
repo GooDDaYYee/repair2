@@ -33,7 +33,7 @@
             $_SESSION["id"]=$row["Id"];
             $_SESSION["lv"]=$row["lv"];
         }
-        header( "location: index.php" );
+        header( "location: index.php?page=home" );
     } else {
         echo '<script>alert("รหัสผิด");window.location="login.php";</script>';
 

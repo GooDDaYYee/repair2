@@ -211,9 +211,9 @@
                 <tr>
                   <th scope="col">ลำดับ</th>
                   <th scope="col">หมายเลขเครื่อง</th>
-                  <th scope="col">หมวดหมู่</th>
                   <th scope="col">ประเภท</th>
-                  <th scope="col">ยี่ห่อ</th>
+                  <th scope="col">ชนิดอุปกรณ์</th>
+                  <th scope="col">วันที่/เวลา</th>
                   <th scope="col">รูปภาพ</th>
                   <th scope="col"></th>
                 </tr>
@@ -224,162 +224,15 @@
                   <td>asdssadsadsadsadsaa</td>
                   <td>adsad</td>
                   <td>dsd</td>
-                  <td>assa</td>
-                  <td>@mddsadsao</td>
-                  <td>@mdado</td>
-                </tr>
-                <tr>
-                  <th scope="row">1</th>
-                  <td>asdssadsadsadsadsaa</td>
-                  <td>adsad</td>
                   <td>dsd</td>
-                  <td>assa</td>
                   <td>@mddsadsao</td>
-                  <td>@mdado</td>
-                </tr>
-                <tr>
-                  <th scope="row">1</th>
-                  <td>asdssadsadsadsadsaa</td>
-                  <td>adsad</td>
-                  <td>dsd</td>
-                  <td>assa</td>
-                  <td>@mddsadsao</td>
-                  <td>@mdado</td>
-                </tr>
-                <tr>
-                  <th scope="row">1</th>
-                  <td>asdssadsadsadsadsaa</td>
-                  <td>adsad</td>
-                  <td>dsd</td>
-                  <td>assa</td>
-                  <td>@mddsadsao</td>
-                  <td>@mdado</td>
-                </tr>
-                <tr>
-                  <th scope="row">1</th>
-                  <td>asdssadsadsadsadsaa</td>
-                  <td>adsad</td>
-                  <td>dsd</td>
-                  <td>assa</td>
-                  <td>@mddsadsao</td>
-                  <td>@mdado</td>
-                </tr>
-                <tr>
-                  <th scope="row">1</th>
-                  <td>asdssadsadsadsadsaa</td>
-                  <td>adsad</td>
-                  <td>dsd</td>
-                  <td>assa</td>
-                  <td>@mddsadsao</td>
-                  <td>@mdado</td>
-                </tr>
-                <tr>
-                  <th scope="row">1</th>
-                  <td>asdssadsadsadsadsaa</td>
-                  <td>adsad</td>
-                  <td>dsd</td>
-                  <td>assa</td>
-                  <td>@mddsadsao</td>
-                  <td>@mdado</td>
-                </tr>
-                <tr>
-                  <th scope="row">1</th>
-                  <td>asdssadsadsadsadsaa</td>
-                  <td>adsad</td>
-                  <td>dsd</td>
-                  <td>assa</td>
-                  <td>@mddsadsao</td>
-                  <td>@mdado</td>
-                </tr>
-                <tr>
-                  <th scope="row">1</th>
-                  <td>asdssadsadsadsadsaa</td>
-                  <td>adsad</td>
-                  <td>dsd</td>
-                  <td>assa</td>
-                  <td>@mddsadsao</td>
-                  <td>@mdado</td>
-                </tr>
-                <tr>
-                  <th scope="row">1</th>
-                  <td>asdssadsadsadsadsaa</td>
-                  <td>adsad</td>
-                  <td>dsd</td>
-                  <td>assa</td>
-                  <td>@mddsadsao</td>
-                  <td>@mdado</td>
-                </tr>
-                <tr>
-                  <th scope="row">1</th>
-                  <td>asdssadsadsadsadsaa</td>
-                  <td>adsad</td>
-                  <td>dsd</td>
-                  <td>assa</td>
-                  <td>@mddsadsao</td>
-                  <td>@mdado</td>
-                </tr>
-                <tr>
-                  <th scope="row">1</th>
-                  <td>asdssadsadsadsadsaa</td>
-                  <td>adsad</td>
-                  <td>dsd</td>
-                  <td>assa</td>
-                  <td>@mddsadsao</td>
-                  <td>@mdado</td>
-                </tr>
-                <tr>
-                  <th scope="row">1</th>
-                  <td>asdssadsadsadsadsaa</td>
-                  <td>adsad</td>
-                  <td>dsd</td>
-                  <td>assa</td>
-                  <td>@mddsadsao</td>
-                  <td>@mdado</td>
-                </tr>
-                <tr>
-                  <th scope="row">1</th>
-                  <td>asdssadsadsadsadsaa</td>
-                  <td>adsad</td>
-                  <td>dsd</td>
-                  <td>assa</td>
-                  <td>@mddsadsao</td>
-                  <td>@mdado</td>
-                </tr>
-                <tr>
-                  <th scope="row">1</th>
-                  <td>asdssadsadsadsadsaa</td>
-                  <td>adsad</td>
-                  <td>dsd</td>
-                  <td>assa</td>
-                  <td>@mddsadsao</td>
-                  <td>@mdado</td>
-                </tr>
-                <tr>
-                  <th scope="row">1</th>
-                  <td>asdssadsadsadsadsaa</td>
-                  <td>adsad</td>
-                  <td>dsd</td>
-                  <td>assa</td>
-                  <td>@mddsadsao</td>
-                  <td>@mdado</td>
-                </tr>
-                <tr>
-                  <th scope="row">1</th>
-                  <td>asdssadsadsadsadsaa</td>
-                  <td>adsad</td>
-                  <td>dsd</td>
-                  <td>assa</td>
-                  <td>@mddsadsao</td>
-                  <td>@mdado</td>
-                </tr>
-                <tr>
-                  <th scope="row">1</th>
-                  <td>asdssadsadsadsadsaa</td>
-                  <td>adsad</td>
-                  <td>dsd</td>
-                  <td>assa</td>
-                  <td>@mddsadsao</td>
-                  <td>@mdado</td>
+                  <td>
+                    <div class="btn-group" role="group" aria-label="Basic example">
+                      <button type="button" class="btn btn-outline-success">แก้ไข้</button>
+                      <button type="button" class="btn btn-outline-primary">รายละเอียด</button>
+                      <button type="button" class="btn btn-outline-danger">ลบ</button>
+                    </div>
+                  </td>
                 </tr>
               </tbody>
             </table>

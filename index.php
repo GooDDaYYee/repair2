@@ -14,7 +14,7 @@ if($page=='home'){
 }elseif($page=='report'){
     include_once("report.php");
 }else{
-    include_once("home.php");
+    include_once("register.php");
 }
 
 include_once("footer.php");

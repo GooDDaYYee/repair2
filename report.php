@@ -17,6 +17,7 @@
     href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
     rel="stylesheet">
 
+  <!-- font mitr -->
   <link href='https://fonts.googleapis.com/css?family=Mitr' rel='stylesheet'>
 
   <!-- Custom styles for this template-->
@@ -37,7 +38,6 @@
   </script>
   <link rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/tempusdominus-bootstrap-4/5.0.1/css/tempusdominus-bootstrap-4.min.css" />
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/js/all.js"crossorigin="anonymous"></script>
 
 
   <style>
@@ -243,19 +243,35 @@
 
                 <div class="form-group row">
                   <div class="col-sm-6 mb-4 mb-sm-0">
-                    <select class="form-control" placeholder="แผนก">
+                    <input type="text" id="inputmachine" class="form-control form-control-user"
+                      placeholder="หมายเลขเครื่อง" required="">
+                  </div>
+                  <div class="col-sm-6">
+                  <select class="form-control" id="category" name="category">
+                      <option>ประเภท</option>
+                      <option>คอมพิวเตอร์</option></option>
+                    </select>
+                  </div>
+                  </div>
+
+                <div class="form-group row">
+                  <div class="col-sm-6 mb-4 mb-sm-0">
+                    <select class="form-control" id="type" name="type">
                       <option>ชนิดอุปกรณ์</option>
-                      <option>คอมพิวเตอร์</option>
+                      <option>เมาส์</option>
+                      <option>จอคอมพิวเตอร์</option>
+                      <option>แป้นพิมพ์</option>
+                      <option>ลำโพง</option>
                     </select>
                   </div>
                   <div class="col-sm-6">
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                    <textarea class="form-control" id="inputcause" name="inputcause" rows="3"
                       placeholder="สาเหตุ"></textarea>
                   </div>
                 </div>
                 <div class="form-group row">
                   <div class="col-sm-6 mb-3 mb-sm-0">
-                    <input type="numberphone" id="inputnumberphone" class="form-control form-control-user"
+                    <input type="numberphone" id="inputnumberphone" name="inputnumberphone" class="form-control form-control-user"
                       placeholder="เบอร์โทรศัพท์" required="">
                   </div>
                   <!-- time -->
