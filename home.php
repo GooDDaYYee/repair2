@@ -221,11 +221,41 @@
               <tbody>
                 <tr>
                   <th scope="row">1</th>
-                  <td>asdssadsadsadsadsaa</td>
-                  <td>adsad</td>
-                  <td>dsd</td>
-                  <td>dsd</td>
-                  <td>@mddsadsao</td>
+                  <td>Mark</td>
+                  <td>Otto</td>
+                  <td>@mdo</td>
+                  <td>@mdo</td>
+                  <td>@mdo</td>
+                  <td>
+                    <div class="btn-group" role="group" aria-label="Basic example">
+                      <button type="button" class="btn btn-outline-success">แก้ไข้</button>
+                      <button type="button" class="btn btn-outline-primary">รายละเอียด</button>
+                      <button type="button" class="btn btn-outline-danger">ลบ</button>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row">2</th>
+                  <td>Jacob</td>
+                  <td>Thornton</td>
+                  <td>@fat</td>
+                  <td>@mdo</td>
+                  <td>@mdo</td>
+                  <td>
+                    <div class="btn-group" role="group" aria-label="Basic example">
+                      <button type="button" class="btn btn-outline-success">แก้ไข้</button>
+                      <button type="button" class="btn btn-outline-primary">รายละเอียด</button>
+                      <button type="button" class="btn btn-outline-danger">ลบ</button>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row">3</th>
+                  <td>Larry</td>
+                  <td>the Bird</td>
+                  <td>@twitter</td>
+                  <td>@mdo</td>
+                  <td>@mdo</td>
                   <td>
                     <div class="btn-group" role="group" aria-label="Basic example">
                       <button type="button" class="btn btn-outline-success">แก้ไข้</button>
@@ -238,6 +268,7 @@
             </table>
           </div>
         </div>
+
       </div>
 
 
