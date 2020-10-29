@@ -224,56 +224,50 @@
             </nav>
             <!-- End of Topbar -->
 
-            <!-- Begin Page Content -->
-            <div class="card o-hidden border-0 shadow-lg my-5">
-                <div class="card-body p-0">
-                    <!-- Nested Row within Card Body -->
-                    <div class="row">
-                        <div class="col-lg">
-                            <div class="p-5">
-                                <div class="text-center">
-                                    <h1 class="h2 text-gray-900 mb-2">เพิ่มผู้ใช้</h1>
-                                </div>
-                                <hr class="user">
+            <form action="insert_register.php" method="post">
+                <!-- Begin Page Content -->
+                <div class="card o-hidden border-0 shadow-lg my-5">
+                    <div class="card-body p-0">
+                        <!-- Nested Row within Card Body -->
+                        <div class="row">
+                            <div class="col-lg">
+                                <div class="p-5">
+                                    <div class="text-center">
+                                        <h1 class="h2 text-gray-900 mb-2">เพิ่มผู้ใช้</h1>
+                                    </div>
+                                    <hr class="user">
 
 
-                                <div class="form-group row">
-                                    <div class="col-sm-6 mb-3 mb-sm-0">
-                                        <input type="text" id="inputname" class="form-control form-control-user"
-                                            placeholder="ชื่อ" required="">
+                                    <div class="form-group row">
+                                        <div class="col-sm-6 mb-3 mb-sm-0">
+                                            <input type="text" id="name" name="name" class="form-control form-control-user"
+                                                placeholder="ชื่อ" required="">
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <input type="text" id="lastname" name="lastname" class="form-control form-control-user"
+                                                placeholder="นามสกุล" required="">
+                                        </div>
                                     </div>
-                                    <div class="col-sm-6">
-                                        <input type="text" id="inputlastname" class="form-control form-control-user"
-                                            placeholder="นามสกุล" required="">
+                                    <div class="form-group">
+                                        <input type="text" id="username" name="username"  class="form-control form-control-user"
+                                            placeholder="Username" required="" autofocus="">
                                     </div>
-                                </div>
-                                <div class="form-group">
-                                    <input type="text" id="inputDepartment" class="form-control form-control-user"
-                                        placeholder="Username" required="" autofocus="">
+
+                                    <div class="form-group">
+                                            <input type="password" id="password" name="password" class="form-control form-control-user"
+                                                placeholder="Password" required="">
+                                    </div>
+                                    <button class="btn btn-primary btn-user btn-block" type="submit">
+                                        <h5>Submit</h5>
+                                    </button>
                                 </div>
 
-                                <div class="form-group row">
-                                    <div class="col-sm-6 mb-3 mb-sm-0">
-                                        <input type="password" id="inputPassword" class="form-control form-control-user"
-                                            placeholder="Password" required="">
-                                    </div>
-                                    <div class="col-sm-6">
-                                        <input type="password" id="inputRepeatPassword"
-                                            class="form-control form-control-user" placeholder="Repeat Password"
-                                            required="">
-                                    </div>
-                                </div>
-                                <button class="btn btn-primary btn-user btn-block" type="submit">
-                                    <h5>Submit</h5>
-                                </button>
+                                
                             </div>
-
-                            </form>
                         </div>
                     </div>
                 </div>
-            </div>
-
+            </form>
         </div>
         <!-- End of Content Wrapper -->
 

@@ -217,80 +217,80 @@
       <!-- End of Topbar -->
 
       <!-- Begin Page Content -->
-      <div class="card o-hidden border-0 shadow-lg my-5">
-        <div class="card-body p-0">
-          <!-- Nested Row within Card Body -->
-          <div class="row">
-            <div class="col-lg">
-              <div class="p-5">
-                <div class="text-center">
-                  <h1 class="h2 text-gray-900 mb-2">แจ้งซ่อม</h1>
-                </div>
-                <hr class="user">
+      <form action="insert_report.php" method="post">
+        <div class="card o-hidden border-0 shadow-lg my-5">
+          <div class="card-body p-0">
+            <!-- Nested Row within Card Body -->
+            <div class="row">
+              <div class="col-lg">
+                <div class="p-5">
+                  <div class="text-center">
+                    <h1 class="h2 text-gray-900 mb-2">แจ้งซ่อม</h1>
+                  </div>
+                  <hr class="user">
 
-                <div class="form-group row">
-                  <div class="col-sm-6 mb-4 mb-sm-0">
-                    <input type="text" id="inputmachine" class="form-control form-control-user"
-                      placeholder="หมายเลขเครื่อง" required="">
-                  </div>
-                  <div class="col-sm-6">
-                  <select class="form-control" id="category" name="category">
-                      <option>ประเภท</option>
-                      <option>คอมพิวเตอร์</option></option>
-                    </select>
-                  </div>
-                  </div>
+                  <div class="form-group row">
+                    <div class="col-sm-6 mb-4 mb-sm-0">
+                      <input type="text" id="machine" name="machine" class="form-control form-control-user"
+                        placeholder="หมายเลขเครื่อง" required="">
+                    </div>
+                    <div class="col-sm-6">
+                    <select class="form-control" id="category" name="category">
+                        <option>ประเภท</option>
+                        <option>คอมพิวเตอร์</option></option>
+                      </select>
+                    </div>
+                    </div>
 
-                <div class="form-group row">
-                  <div class="col-sm-6 mb-4 mb-sm-0">
-                    <select class="form-control" id="type" name="type">
-                      <option>ชนิดอุปกรณ์</option>
-                      <option>เมาส์</option>
-                      <option>จอคอมพิวเตอร์</option>
-                      <option>แป้นพิม</option>
-                      <option>ลำโพง</option>
-                    </select>
+                  <div class="form-group row">
+                    <div class="col-sm-6 mb-4 mb-sm-0">
+                      <select class="form-control" id="type" name="type">
+                        <option>ชนิดอุปกรณ์</option>
+                        <option>เมาส์</option>
+                        <option>จอคอมพิวเตอร์</option>
+                        <option>แป้นพิม</option>
+                        <option>ลำโพง</option>
+                      </select>
+                    </div>
+                    <div class="col-sm-6">
+                      <textarea class="form-control" id="cause" name="cause" rows="3"
+                        placeholder="สาเหตุ"></textarea>
+                    </div>
                   </div>
-                  <div class="col-sm-6">
-                    <textarea class="form-control" id="inputcause" name="inputcause" rows="3"
-                      placeholder="สาเหตุ"></textarea>
+                  <div class="form-group row">
+                    <div class="col-sm-6 mb-3 mb-sm-0">
+                      <input type="numberphone" id="numberphone" name="numberphone" class="form-control form-control-user"
+                        placeholder="เบอร์โทรศัพท์" required="">
+                    </div>
+                    <div class="col-sm-6">
+                    <li class="form-control" id="time" name="time">เวลาแจ้งซ่อม &nbsp;<?php 
+                    date_default_timezone_set('Asia/Bangkok');
+                    echo date("d/m/Y h:i A") . "\n";
+                    ?> </li>
+                    
+                    </div>
                   </div>
-                </div>
-                <div class="form-group row">
-                  <div class="col-sm-6 mb-3 mb-sm-0">
-                    <input type="numberphone" id="inputnumberphone" name="inputnumberphone" class="form-control form-control-user"
-                      placeholder="เบอร์โทรศัพท์" required="">
-                  </div>
-                  <div class="col-sm-6">
-                  <li class="form-control" id="time" name="time">เวลาแจ้งซ่อม &nbsp;<?php 
-                  date_default_timezone_set('Asia/Bangkok');
-                  echo date("d/m/Y h:i A") . "\n";
-                  ?> </li>
                   
+                  <!-- picture -->
+                  <div class="form-group">
+
+                      <img id="showimg" alt="" width="150" height="150">
+                    <br>
+                    <h6>แนปรูปภาพ :</h6>
+                    <input type="file" class="btn btn-outline-primary col-md-3" id="showimg" name="showimg"
+                      accept="image/png, image/jpeg, image/gif " onchange="preview_image(event)">
                   </div>
-                </div>
-                
-                <!-- picture -->
-                <div class="form-group">
 
-                    <img id="showimg" alt="" width="150" height="150">
-                  <br>
-                  <h6>แนปรูปภาพ :</h6>
-                  <input type="file" class="btn btn-outline-primary col-md-3" id="showimg" name="showimg"
-                    accept="image/png, image/jpeg, image/gif " onchange="preview_image(event)">
+                  <!-- End picture -->
+                  <button class="btn btn-primary btn-user btn-block" type="submit">
+                    <h5>Submit</h5>
+                  </button>
                 </div>
-
-                <!-- End picture -->
-                <button class="btn btn-primary btn-user btn-block" type="submit">
-                  <h5>Submit</h5>
-                </button>
               </div>
-
-              </form>
             </div>
           </div>
         </div>
-      </div>
+      </form>
 
     </div>
     <!-- End of Content Wrapper -->
