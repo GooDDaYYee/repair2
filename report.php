@@ -262,7 +262,7 @@
                       placeholder="เบอร์โทรศัพท์" required="">
                   </div>
                   <div class="col-sm-6">
-                  <li class="form-control">เวลาแจ้งซ่อม &nbsp;<?php 
+                  <li class="form-control" id="time" name="time">เวลาแจ้งซ่อม &nbsp;<?php 
                   date_default_timezone_set('Asia/Bangkok');
                   echo date("d/m/Y h:i A") . "\n";
                   ?> </li>

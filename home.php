@@ -170,7 +170,7 @@
           <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown"
             aria-haspopup="true" aria-expanded="false">
             <span
-              class="mr-2 d-none d-lg-inline text-gray-600 small"><?php echo $_SESSION['name'].' '.$_SESSION['lastname']; ?>
+              class="mr-2 d-none d-lg-inline text-gray-600 small "><?php echo $_SESSION['name'].' '.$_SESSION['lastname']; ?>
             </span>
             <img class="img-profile rounded-circle" src="img/picture.png">
           </a>
@@ -187,7 +187,6 @@
 
     </nav>
     <!-- End of Topbar -->
-
     <!-- Begin Page Content -->
     <div class="container-fluid">
 
@@ -204,6 +203,7 @@
               d="M7 5.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm0 8a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5z" />
           </svg>&nbsp;Inventory
         </div>
+
         <div class="card-body">
           <div class="card border h-100">
             <table class="table table-striped">
@@ -218,57 +218,42 @@
                   <th scope="col"></th>
                 </tr>
               </thead>
-              <tbody>
-                <tr>
-                  <th scope="row">1</th>
-                  <td>Mark</td>
-                  <td>Otto</td>
-                  <td>@mdo</td>
-                  <td>@mdo</td>
-                  <td>@mdo</td>
-                  <td>
-                    <div class="btn-group" role="group" aria-label="Basic example">
-                      <button type="button" class="btn btn-outline-success">แก้ไข้</button>
-                      <button type="button" class="btn btn-outline-primary">รายละเอียด</button>
-                      <button type="button" class="btn btn-outline-danger">ลบ</button>
-                    </div>
-                  </td>
-                </tr>
-                <tr>
-                  <th scope="row">2</th>
-                  <td>Jacob</td>
-                  <td>Thornton</td>
-                  <td>@fat</td>
-                  <td>@mdo</td>
-                  <td>@mdo</td>
-                  <td>
-                    <div class="btn-group" role="group" aria-label="Basic example">
-                      <button type="button" class="btn btn-outline-success">แก้ไข้</button>
-                      <button type="button" class="btn btn-outline-primary">รายละเอียด</button>
-                      <button type="button" class="btn btn-outline-danger">ลบ</button>
-                    </div>
-                  </td>
-                </tr>
-                <tr>
-                  <th scope="row">3</th>
-                  <td>Larry</td>
-                  <td>the Bird</td>
-                  <td>@twitter</td>
-                  <td>@mdo</td>
-                  <td>@mdo</td>
-                  <td>
-                    <div class="btn-group" role="group" aria-label="Basic example">
-                      <button type="button" class="btn btn-outline-success">แก้ไข้</button>
-                      <button type="button" class="btn btn-outline-primary">รายละเอียด</button>
-                      <button type="button" class="btn btn-outline-danger">ลบ</button>
-                    </div>
-                  </td>
-                </tr>
-              </tbody>
+              <?php
+              include('connect.php');
+              $strsql = "SELECT * FROM detail ORDER BY Id DESC"; //คำสั่งให้เลือกข้อมูลจาก TABLE ชื่อ user เรียงลำดับจากมากไปน้อย
+              $result = mysqli_query($con,$strsql);
+              $rowcount=mysqli_num_rows($result);
+              if($rowcount>0){
+                while($rs = mysqli_fetch_array($result))  //สร้างตัวแปร $rs มารับค่าจากการ fetch array
+                {
+              ?>
+                <tbody>
+                  <tr>
+                    <th scope="row"><?php echo $rs['Id'];?></th>
+                    <td><?php echo $rs['product_no'];?></td>
+                    <td><?php echo $rs['topic'];?></td>
+                    <td><?php echo $rs[''];?></td>
+                    <td><?php echo $rs['create_date'];?></td>
+                    <td><?php echo $rs[''];?></td>
+                    <td>
+                      <div class="btn-group" role="group" aria-label="Basic example">
+                        <button type="button" class="btn btn-outline-success">แก้ไข้</button>
+                        <button type="button" class="btn btn-outline-primary">รายละเอียด</button>
+                        <button type="button" class="btn btn-outline-danger">ลบ</button>
+                      </div>
+                    </td>
+                  </tr>
+                </tbody>
+            <?php 
+              }
+            } else{
+              echo  "<tr><td colspan='6'>ไม่พบข้อมูล</td></tr>";
+            }
+            mysqli_close($conn);
+            ?>
             </table>
           </div>
         </div>
-
       </div>
 
 
