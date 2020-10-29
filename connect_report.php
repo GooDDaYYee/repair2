@@ -3,7 +3,6 @@ $serverName = "localhost";
 $userName = "root";
 $userPassword = ""; //รหัสผ่านฐานข้อมูล
 $dbName = "repair"; //ชื่อฐานข้อมูล
-$tbNeme = "detail";
 
 $conn = mysqli_connect($serverName,$userName,$userPassword,$dbName,$tbNeme);
 // Check connection
