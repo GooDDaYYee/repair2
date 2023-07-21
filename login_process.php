@@ -9,20 +9,20 @@
     $serverpassword = "";
     
     // Create connection
-    $conn = mysqli_connect($servername, $serverusername, $serverpassword);
+    $con = mysqli_connect($servername, $serverusername, $serverpassword);
 
     // Check connection
-    if (!$conn) {
+    if (!$con) {
     
         die("Connection failed: " . mysqli_connect_error());
     }
     
     //echo "Connected successfully";
-    $sql="select * from repair.user where status='1' and username='$user' and password=sha1('$pass');";
+    $sql="select * FROM repair.user where status='1' and username='$user';";
 
     //echo $sql;
     
-    $result = mysqli_query($conn, $sql);
+    $result = mysqli_query($con, $sql);
 
     if (mysqli_num_rows($result) > 0) {
         // output data of each row
@@ -41,5 +41,5 @@
         exit(0);
     }
         
-    mysqli_close($conn);
+    mysqli_close($con);
 ?>

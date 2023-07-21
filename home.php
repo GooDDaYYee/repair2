@@ -230,9 +230,9 @@
                 <tbody>
                   <tr>
                     <th scope="row"><?php echo $rs['Id'];?></th>
-                    <td><?php echo $rs['product_no'];?></td>
-                    <td><?php echo $rs['topic'];?></td>
-                    <td><?php echo $rs[''];?></td>
+                    <td><?php echo $rs['machine'];?></td>
+                    <td><?php echo $rs['category'];?></td>
+                    <td><?php echo $rs['type'];?></td>
                     <td><?php echo $rs['create_date'];?></td>
                     <td><?php echo $rs[''];?></td>
                     <td>
@@ -249,7 +249,7 @@
             } else{
               echo  "<tr><td colspan='6'>ไม่พบข้อมูล</td></tr>";
             }
-            mysqli_close($conn);
+            mysqli_close($con);
             ?>
             </table>
           </div>
